@@ -1,8 +1,2 @@
-$color1: #fff;
-
-p {
-  color: $color1;
-  & span {
-    color: red;
-  }
-}
+@import "lib/variables";
+@import "tablas";
