@@ -1,0 +1,8 @@
+$color1: #fff;
+
+p {
+  color: $color1;
+  & span {
+    color: red;
+  }
+}
