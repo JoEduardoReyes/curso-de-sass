@@ -2,6 +2,7 @@
 **********************/
 /* Reboot Codes - Based on normalize.css v5.0.0
 **********************/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -481,20 +482,27 @@ html {
  * Basic styles for links
  */
 a {
-  color: #e50050;
+  color: #ea83ee;
   text-decoration: none;
 }
 a:hover, a:active, a:focus {
-  color: #222222;
+  color: black;
   text-decoration: underline;
 }
 
 /**
  * Basic typography style for copy text
  */
+html {
+  font-size: 62.5%;
+}
+
 body {
-  color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: black;
+  font-family: "Quicksand", "Arial", sans-serif;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.92rem;
 }
 
 /**
@@ -554,4 +562,15 @@ body {
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+/*
+** Buttons
+*/
+.btn {
+  display: inline-block;
+  color: white;
+  background-color: #ea83ee;
+  line-height: 2.5;
+  border-radius: 4px;
 }

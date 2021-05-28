@@ -1,7 +1,16 @@
+@import "../vendors/fonts";
+
 /**
  * Basic typography style for copy text
  */
+html {
+  font-size: 62.5%;
+}
+
 body {
   color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font-family: $text-font-stack;
+  font-size: $basefontsize;
+  font-weight: normal;
+  line-height: $basefontsize * 1.2;
 }

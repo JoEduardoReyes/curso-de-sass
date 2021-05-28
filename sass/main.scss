@@ -1,23 +1,31 @@
 @charset "UTF-8";
 
 // 1. Configuration and helpers
-@import "abstracts/variables", "abstracts/functions", "abstracts/mixins",
-  "abstracts/breakpoints", "abstracts/grids";
+// All files that will not be rendered on the main file
+@import "lib/variables", "lib/functions", "lib/mixins", "lib/breakpoints",
+  "lib/grids";
 
 // 2. Vendors
+// Downloaded files to give format
 @import "vendors/bootstrap_reboot";
 
 // 3. Base stuff
-@import "base/base", "base/fonts", "base/typography", "base/helpers";
+// Main structure of the HTML file.
+@import "base/base", "base/fonts", "base/typography", "base/helpers",
+  "base/links";
 
 // 4. Layout-related sections
+// All files to give format to the page
 @import "layout/header", "layout/footer";
 
 // 5. Components
+// Little reusable components
 @import "components/button";
 
 // 6. Page-specific styles
+// Pages
 @import "pages/home";
 
 // 7. Themes
+// IF there is more than one colour pallete
 @import "themes/default";

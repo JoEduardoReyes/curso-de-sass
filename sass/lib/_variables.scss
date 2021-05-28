@@ -1,0 +1,58 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$text-font-stack: "Quicksand", "Arial", sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+  "Monaco", monospace !default;
+
+// Branding colors
+
+$color-brand: #ea83ee;
+$color-secondary: rgb(219, 216, 121);
+
+$color-black: rgb(0, 0, 0);
+$color-darkblack: #4d4d4d;
+$color-grey: #bfbfbf;
+$color-white: rgb(255, 255, 255);
+
+// Texturas
+$color-alert: rgb(252, 228, 207);
+$color-error: rgb(218, 79, 73);
+$color-info: rgb(66, 104, 221);
+$color-success: rgb(91, 183, 91);
+
+// Tipografía
+
+/// Regular font size
+$text-color: $color-black;
+
+/// Regular font family
+/// @type List
+$text-font-stack: "Quicksand", "Arial", sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+  "Monaco", monospace !default;
+
+$basefontsize: 1.6rem;
+
+$buttoncolor: $color-white;
+$buttonbackgroundcolor: $color-brand;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+// Buttons
+$buttoncolor: $color-white;
+$buttonbakgroundcolor: $color-brand;
+
+// Decoration
+$border-radius: 4px;
